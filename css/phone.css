@@ -13,8 +13,8 @@ body{
 }
 
 #navbar ul {
-    margin: 1px 31px;
-    padding: 22px 23px;
+    margin: -38px 31px;
+    padding: 0px 23px;
 }
 /* Home */
 #home {
@@ -35,16 +35,15 @@ body{
 
 }
 
-#services .box{
-
-    
-}
-
-
 /* Clients */
 
 #client{
-    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+#client img{
+    width: 121px;
+    
 }
 
 

@@ -3,6 +3,14 @@ body{
     padding: 0px;
 }
 
+.h-primaryy{
+    font-size: 2rem;
+}
+
+.btn-primary {
+    font-size: 1.2rem;
+}
+
 /* Navigation */
 #navbar{
     flex-direction: column;
@@ -14,11 +22,13 @@ body{
 
 #navbar ul li {
    font-size: -0.7rem;
+   margin: 4px -6px;
+   padding: 5px 5px;
 }
 
 #navbar ul {
-    margin: 1px 31px;
-    padding: 3px 23px;
+    margin: -29px 31px;
+    padding: 2px 23px;
 }
 /* Home */
 #home {
@@ -43,8 +53,14 @@ body{
 /* Clients */
 
 #client{
-    overflow: hidden;
+    flex-wrap: wrap;
 }
+
+#client img {
+    width: 67px;
+    height: 80px;
+}
+
 
 
 /* Contact */
